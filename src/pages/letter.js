@@ -19,7 +19,7 @@ var base = new Airtable({ apiKey: process.env.GATSBY_AIRTABLE_API_KEY }).base(
   process.env.GATSBY_AIRTABLE_BASE_ID
 )
 
-function IndexPage() {
+function Letter() {
   const [airtableResults, setAirtableResults] = useState({paragraphs: false, photos: false, videos: false})
   const airParagraphs = []
   const airImages = []
@@ -87,16 +87,13 @@ function IndexPage() {
         </ul>
         <p>Yes. It’s a busy time. It’s stressful. It’s the end of the year. So many projects. So many loose ends. So many … things. We get it. We all feel it. However, this is a moment for self-care and team care. Acumen Academy, fundamentally, is nothing but ‘us’. It’s time ‘we’ got to know ‘us’ so as to understand, at its heart, what Acumen Academy really is. 
         </p> 
-        <p>Okay, now that we’ve agreed that we’re going to let go of the mountain of work for a brief period —  we’ve agreed, right? Hmmmmm? — here’s how to explore the retreat AND, a few, hopefully fun, assignments.</p>
-        <h3>Important Links</h3>
-        <p>Check out the calendar, event cards, and time zones.</p>
-        <Link to="/calendars/"><button>Let Me at Them!</button></Link>
-
+        <p>Okay, now that we’ve agreed that we’re going to let go of the mountain of work for a brief period —  we’ve agreed, right? Hmmmmm? —, here’s how to explore the retreat AND, a few, hopefully fun, assignments.</p>
+        <h3>The AA Retreat Universe</h3>
         {/* video view bingo */}
         <p>Assignment One:</p>
         <p>RSVP for an event.</p>
         <p>(Also found in #aa-retreat Slack Channel)</p>
-        
+        <Link to="/calendars/">Checkout the Calendars</Link>
         </div>
 
 
@@ -122,4 +119,4 @@ function IndexPage() {
   )
 }
 
-export default IndexPage
+export default Letter

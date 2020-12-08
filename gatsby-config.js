@@ -35,7 +35,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "fonts",
-        path: `${__dirname}/public/fonts/`
+        path: `${__dirname}/src/fonts/`
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
