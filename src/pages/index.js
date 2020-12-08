@@ -15,8 +15,8 @@ import SEO from "../components/seo"
 // const db = admin.firestore()
 
 var Airtable = require("airtable")
-var base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
-  process.env.AIRTABLE_BASE_ID
+var base = new Airtable({ apiKey: process.env.GATSBY_AIRTABLE_API_KEY }).base(
+  process.env.GATSBY_AIRTABLE_BASE_ID
 )
 
 function IndexPage() {
@@ -30,8 +30,6 @@ function IndexPage() {
         function page(records) {
           records.forEach(function (record) {
             items.push(record.get("Writing"))
-            console.log("I am the record: ", record)
-            console.log("Joshua Retrieved: ", record.get("Writing"))
           })
           if (mounted) {
             setWritings(items)
