@@ -677,11 +677,6 @@ pre tt:after {
   line-height:  1;
 }
 
-.airtable-embed {
-  background:url(../images/loading.gif) center center no-repeat;
-}
-
-
 .logo {
   color: rgb(50, 50, 50);
   font: inherit;
