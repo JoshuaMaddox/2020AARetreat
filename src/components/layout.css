@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Avant Garde Bold';
-  font-weight: 700;
+  font-weight: 900;
   font-style: normal;
   src: url("../fonts/AvantGarde-Demi.woff2") format("woff2"), url("../fonts/AvantGarde-Demi.woff") format("woff");
   font-display: swap;
@@ -715,4 +715,20 @@ a:hover {
   justify-content: space-around;
   position: relative;
   border:  10px solid blue;
+}
+
+button {
+  border: none;
+  background-color: #002F71;
+  color: #ffffff;
+  height: 3rem;
+  font-family: 'Avant Garde Bold',-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 250px;
+  margin-bottom:  2.5rem;
+}
+
+button:hover {
+  background-color: #0093BB;
+  cursor: pointer;
 }

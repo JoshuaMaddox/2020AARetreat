@@ -26,7 +26,7 @@ function IndexPage() {
   const airLoomVideos = []
   useEffect(() => {
     let mounted = true
-    base("Table 1")
+    base("DONT EDIT")
       .select({})
       .eachPage(
         function page(records) {
@@ -54,24 +54,8 @@ function IndexPage() {
         }
       )
   }, [])
-
-  // let images = imgs.map((item,idx) => {
-  //   // return <img src={item}/>
-  // })
   const {paragraphs, photos, videos } = airtableResults
 
-    // paragraphs.map((item,idx) => {
-    //     return <img src={item}/>
-    //   })
-  
-
-    // videos.map((item, idx) => {
-    //   return <div key={item+idx}>{item}</div>
-    // })
-  
-    // photos.map((item, idx) => {
-    // return <img key={item+idx} src={item} />
-    // })
   
 
   return (
@@ -82,15 +66,20 @@ function IndexPage() {
         <h2>Welcome to the 2020 Acumen Academy Retreat!</h2>
         <p>Over the coming three days, you have two jobs:</p>
         <ul>
-          <li>Relax </li>
-          <li>Get to know your team and enjoy their company </li>
+          <li>Get to know the broader team and enjoy their company</li>
+          <li>Relax</li>
         </ul>
-        <p>Yes. It’s a busy time. It’s stressful. It’s the end of the year. So many projects. So many loose ends. So many … things. We get it. We all feel it. However, this is a moment for self-care and team care. Acumen Academy, fundamentally, is nothing but ‘us’. It’s time ‘we’ got to know ‘us’ so as to understand, at its heart, what Acumen Academy really is. 
-        </p> 
+        <p>Yes. It’s a busy time. It’s stressful. It’s the end of the year and there are so many projects. So many loose ends. So many … things. </p>
+        
+        <p>We get it. We all feel it. However, this is a moment for self-care and team-care. Acumen Academy, fundamentally, is nothing but ‘us’. It’s time ‘we’ got to know ‘us’ so as to understand, at its heart, what Acumen Academy really is. </p>
+        
         <p>Okay, now that we’ve agreed that we’re going to let go of the mountain of work for a brief period —  we’ve agreed, right? Hmmmmm? — here’s how to explore the retreat AND, a few, hopefully fun, assignments.</p>
-        <h3>Important Links</h3>
-        <p>Check out the calendar, event cards, and time zones.</p>
-        <Link to="/calendars/"><button>Let Me at Them!</button></Link>
+        <h3>Potential Questions</h3>
+        <h4>Where can I find the calendar and events?</h4>
+        <p>We got ya. Check out the calendar, event cards, and time zones here.</p>
+        <Link to="/calendars/"><button>Imma Check Those Out!</button></Link>
+        <h4>Once I've found an event I want to join, how do I join it?</h4>
+        <Link to="/calendars/"><button>Imma Check Those Out!</button></Link>
 
         {/* video view bingo */}
         <p>Assignment One:</p>
@@ -103,8 +92,7 @@ function IndexPage() {
       <div>{paragraphs[0] ?  paragraphs.map((item,idx) => {
         return <p key={item+idx}>{item}</p>
       }) : "Loading ..."}</div>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
+      
       <div>{videos[0] ?  videos.map((item, idx) => {
       return <div key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
     }) : "Loading ..."}</div>

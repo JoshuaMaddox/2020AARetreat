@@ -17,6 +17,9 @@ function Calendars() {
        <iframe className="airtable-embed" src="https://airtable.com/embed/shrcMNF9OZaYgIsDY?backgroundColor=pink&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: 'transparent', border: 'none'}}></iframe>
        <h2>Browse Event Cards</h2>
        <iframe className="airtable-embed" src="https://airtable.com/embed/shrhslTibcigFY3NW?backgroundColor=pink&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: 'transparent', border: 'none'}}></iframe>
+       <h2>Check the Time in Other Regions</h2>
+       <Link to="https://www.timeanddate.com/worldclock/converter.html?iso=20201208T130000&p1=224&p2=41&p3=179&p4=136&p5=141&p6=125&p7=170&p8=757&p9=176&p10=73&p11=122"><button>Click To Check Times</button></Link>
+    
       </div> 
 
     </Layout>

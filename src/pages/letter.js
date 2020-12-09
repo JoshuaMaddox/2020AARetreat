@@ -26,7 +26,7 @@ function Letter() {
   const airLoomVideos = []
   useEffect(() => {
     let mounted = true
-    base("Table 1")
+    base("DONT EDIT")
       .select({})
       .eachPage(
         function page(records) {
