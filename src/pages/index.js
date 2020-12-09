@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 function IndexPage() {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Home — Acumen Academy Retreat" />
 
       <div className="main-message">
         <h2>Welcome to the 2020 Acumen Academy Retreat!</h2>
@@ -24,7 +24,7 @@ function IndexPage() {
 
         <p>In addition to the many synchronous activities on the retreat calendar, each day, a new asynchronous activity will be listed below. Find a moment of your choosing to participate and check back in — you've a team eager to see what you'll post.</p>
 
-        <p>To make the retreat easier to navigate, all of the important retreat links, can be found below or on the <Link to="/calendars/">Calendars page</Link>.</p>
+        <p>To make the retreat easier to navigate, all of the important retreat links, can be found below or on the <Link to="/calendars/">Calendar page</Link>.</p>
 
         <h3>Async Activity of the Day:</h3>
         <h4>Why Here?</h4>

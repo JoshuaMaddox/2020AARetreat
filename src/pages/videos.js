@@ -73,7 +73,7 @@ function Videos() {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Why Here — Acumen Academy Retreat" />
       <div className="main-message">
         <h2>Why Here?</h2>
         <p>
@@ -86,9 +86,9 @@ function Videos() {
 
         <p>Take a moment to think about everything else you could be doing with this fleeting life. With so little time and so many options, why have you chosen to spend time here, with this team, with Acumen Academy?</p>
 
-        <p>The activity for the day is to create a 30 - 60 second video telling us a few things about yourself and why you continue to show up for this team and the people we serve.</p>
+        <p>The activity for the day is to create a 30 - 60 second video, using the instruction linked below, telling us a few things about yourself and why you continue to show up for this team and the people we serve.</p>
 
-        <p>The results will appear here as they trickle in throughout the day. We encourage you to come back, watch, and get to know the global Acumen Academy team.</p>
+        <p>The results will appear below as they trickle in throughout the day. We encourage you to come back, watch, and get to know the global Acumen Academy team.</p>
         <p>Note: After the retreat this page will either be password protected or taken down but the videos will live on in Airtable.</p>
 
         <Link to="/video-instructions/"><button>Instructions Found Here</button></Link> 
@@ -98,7 +98,7 @@ function Videos() {
       <div>
       {videos[0] ? videos.map((item, idx) => {
       return <div key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
-      }) : "Loading Videos..."}
+      }) : <h2>Videos Will Load Here After Posts Are Made...</h2>}
       </div>
           
     </Layout>

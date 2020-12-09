@@ -32,6 +32,9 @@ const Header = ({ siteTitle }) => (
           <Link to='/videos'>
             <li>Why Here</li>
           </Link>
+          <Link to='/things'>
+            <li>The Things</li>
+          </Link>
           <Link to='/letter'>
             <li>A Letter</li>
           </Link>
