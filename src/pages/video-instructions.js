@@ -20,13 +20,13 @@ function VideoInstructions() {
         <p>Download or install Loom and login. You can install it locally on your Mac/PC or run it as a Chrome extension. The Chrome extension is the easiest to set-up but all options are easy. <a href="https://www.loom.com/desktop">Click here to install.</a></p>
         <h3>Step Three:</h3>
         <p>Use Loom to record your response. Follow the steps shown in the video below but with one minor adjustment, in the drop menu shown at 0:18, select the "Camera Only" option instead of "Screen and Camera".</p>
-        <iframe class="airtable-embed" src="https://www.loom.com/embed/7f68fa7f01e349cab91b0c36168f68c3" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: 'transparent', border: '1px solid #ccc'}} ></iframe>
+        <iframe className="airtable-embed" src="https://www.loom.com/embed/7f68fa7f01e349cab91b0c36168f68c3" frameBorder="0" width="100%" height="533" style={{background: 'transparent', border: '1px solid #ccc'}} ></iframe>
         <h3>Step Four:</h3>
         <p>Once you've finished recording, grab the embed code. Be sure to select the "Responsive" option before copying and then paste it into the form below.</p>
         <p>The following video shows how to do that:</p>
-        <iframe class="airtable-embed" src="https://www.loom.com/embed/897168d59c3647ba8e42b42de2f6c745" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: 'transparent', border: '1px solid #ccc'}} ></iframe>
+        <iframe className="airtable-embed" src="https://www.loom.com/embed/897168d59c3647ba8e42b42de2f6c745" frameBorder="0" width="100%" height="533" style={{background: 'transparent', border: '1px solid #ccc'}} ></iframe>
         <h3>The Form:</h3>
-        <iframe class="airtable-embed" src="https://airtable.com/embed/shrgFU7ofLY8easfB?backgroundColor=pink" frameborder="0" onmousewheel="" width="100%" height="800" style={{background: 'transparent', border: 'none'}} ></iframe>
+        <iframe className="airtable-embed" src="https://airtable.com/embed/shrgFU7ofLY8easfB?backgroundColor=pink" frameBorder="0" width="100%" height="800" style={{background: 'transparent', border: 'none'}} ></iframe>
 </div>
       
     </Layout>

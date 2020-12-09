@@ -17,18 +17,22 @@ function Videos() {
   const airLoomVideos = []
   useEffect(() => {
     let mounted = true
-    base("DONT EDIT")
-      .select({})
-      .eachPage(
+    base("Site")
+      .select({fields: ["Attachments", "Writing", "Looms"]}).eachPage(
         function page(records) {
+          console.log('I am the records: ', records)
           records.forEach(function (record) {
-            console.log('I am the record: ', record)
-            console.log("I am looms:  ", record.get("Looms"))
-            if(record.get("Attachments")[0]) {
+            if(record.get("Attachments")) {
+              console.log('Attachments: ', record.get('Attachments')[0].url)
               airImages.push(record.get('Attachments')[0].url)
             }
-            airLoomVideos.push(record.get("Looms"))
-            airParagraphs.push(record.get("Writing"))
+            console.log('Test Looms: ', record.get("Looms"))
+            if(record.get("Looms")) {
+              airLoomVideos.push(record.get("Looms"))
+            }
+            if(record.get("Writing")) {
+              airParagraphs.push(record.get("Writing"))
+            }
           })
           if (mounted) {
             setAirtableResults({
@@ -90,7 +94,7 @@ function Videos() {
 
       <div>
       {videos[0] ? videos.map((item, idx) => {
-      return <div className="video-wrapper" key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
+      return <div key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
       }) : "Loading Videos..."}
       </div>
           

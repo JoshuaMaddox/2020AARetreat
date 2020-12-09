@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/" style={{ textDecoration: `none`}}>
           <div className="inner-logo-container">
               <svg width="50px" height="69px" viewBox="0 0 28 38" version="1.1">
-                  <g id="Symbols" stroke="none" strokewidth="1" fill="none" fillRule="evenodd">
+                  <g id="Symbols" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                       <g id="Header/Blue/Explore" transform="translate(-120.000000, -12.000000)">
                           <g id="Header-A/Blue-1" transform="translate(120.000000, 12.500000)">
                               <g className="outerA">
