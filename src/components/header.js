@@ -27,13 +27,13 @@ const Header = ({ siteTitle }) => (
       <nav className="nav-wrapper">
         <ul>
           <Link to='/calendars'>
-            <li>Calendars & Dates</li>
+            <li>Calendars</li>
           </Link>
           <Link to='/videos'>
-            <li>Videos</li>
+            <li>Why Here</li>
           </Link>
           <Link to='/letter'>
-            <li>Our Letter to the World</li>
+            <li>A Letter</li>
           </Link>
         </ul>
       </nav>
