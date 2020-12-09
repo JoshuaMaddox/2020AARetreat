@@ -22,6 +22,8 @@ function Videos() {
       .eachPage(
         function page(records) {
           records.forEach(function (record) {
+            console.log('I am the record: ', record)
+            console.log("I am looms:  ", record.get("Looms"))
             if(record.get("Attachments")[0]) {
               airImages.push(record.get('Attachments')[0].url)
             }
@@ -87,8 +89,8 @@ function Videos() {
 
 
       <div>
-      {videos[0] ?  videos.map((item, idx) => {
-      return <div key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
+      {videos[0] ? videos.map((item, idx) => {
+      return <div className="video-wrapper" key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
       }) : "Loading Videos..."}
       </div>
           

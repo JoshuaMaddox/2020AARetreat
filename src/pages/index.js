@@ -79,33 +79,26 @@ function IndexPage() {
         <p>We got ya. Check out the calendar, event cards, and time zones here.</p>
         <Link to="/calendars/"><button>Imma Check Those Out!</button></Link>
         <h4>Once I've found an event I want to join, how do I join it?</h4>
-        <Link to="/calendars/"><button>Imma Check Those Out!</button></Link>
+        <Link to="/#/"><button>...</button></Link>
 
         {/* video view bingo */}
-        <p>Assignment One:</p>
+        {/* <p>Assignment One:</p>
         <p>RSVP for an event.</p>
-        <p>(Also found in #aa-retreat Slack Channel)</p>
+        <p>(Also found in #aa-retreat Slack Channel)</p> */}
         
         </div>
 
+        {/* <div>{videos[0] ?  videos.map((item, idx) => {
+        return <div key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
+      }) : "Loading ..."}</div> */}
 
-      <div>{paragraphs[0] ?  paragraphs.map((item,idx) => {
+      {/* <div>{paragraphs[0] ?  paragraphs.map((item,idx) => {
         return <p key={item+idx}>{item}</p>
       }) : "Loading ..."}</div>
       
-      <div>{videos[0] ?  videos.map((item, idx) => {
-      return <div key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
-    }) : "Loading ..."}</div>
        <div>{photos[0] ? photos.map((item, idx) => {
     return <img key={item+idx} src={item} />
-    }) : "Loading ..."}</div>
-      {/* <div>{photos}</div>
-      <div>{videos}</div> */}
-      {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div> */}
-      {/* <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
+    }) : "Loading ..."}</div> */}
     </Layout>
   )
 }
