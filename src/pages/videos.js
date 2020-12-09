@@ -98,7 +98,7 @@ function Videos() {
       <div>
       {videos[0] ? videos.map((item, idx) => {
       return <div className='video-wrapper' key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
-      }) : <h2>Videos Will Load Here After Posts Are Made...</h2>}
+      }) : <p>Videos Are Loading...</p>}
       </div>
           
     </Layout>
