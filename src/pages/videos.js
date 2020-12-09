@@ -68,36 +68,30 @@ function Videos() {
   return (
     <Layout>
       <SEO title="Home" />
-
       <div className="main-message">
-        <h2>We Who've Chosen to be Present</h2>
-
+        <h2>Why Here?</h2>
         <p>
-          We live across generations, cities, countries, continents, and cultures but, for whatever reason, we outwitted those divisions and found our way here, converging in a unique moment. Like so many atoms flying through space, we've randomly, rather impossibly, bumped into each other, and are temporarily bonded, forming something greater than ourselves.
-          </p>
-      <p> Like all things made of other things, Acumen Academy, whatever it is and becomes, is, fundamentally, just the 'we' who are present.
-      </p>
-         
-      <p>That begs the question, who are we? Or at it's root, who are you?</p>
-          
-<p>Take a moment to think about everything else you could be doing in the context of this life begging to be lived richly. With so little time but so many options, why then, have you chosen to spend it here, with us, with Acumen Academy. Why do you continue to chose to be present?</p>
+        We live across generations, cities, countries, continents, and cultures but, for whatever reason, we outwitted those divisions and found our way here, converging in a unique moment. Like so many atoms flying through space, we've randomly, rather impossibly, collided with each other and are temporarily bonded — forming something greater than ourselves.
+        </p>
+        <p> Like all things made up of other things, Acumen Academy is nothing more than its atomic parts. It's just us. 
+        </p>
 
-<Link to="/video-instructions/"><button>I Want to Make a Video</button></Link> 
+        <p>That begs the question, who are we? Or at it's root, who are you? If we can't answer that, it's difficult to answer, at least fundamentally, "What is Acumen Academy?"</p>
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrgFU7ofLY8easfB?backgroundColor=pink" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: 'transparent', border: '1px solid #ccc'}} ></iframe>
-</div>
+        <p>Take a moment to think about everything else you could be doing with this fleeting life. With so little time and so many options, why have you chosen to spend time here, with this team, with Acumen Academy?</p>
 
-<div>
-  <ul>
-    <li>Click <a href="https://www.loom.com/desktop">here to install the video software</a> in Chrome or on Computer</li>
-  </ul>
-</div>
+        <p>Your assignment is to create a 30 - 60 second video telling us a few things about yourself and why you continue to show up for Acumen Academy, this team, and the people we serve.</p>
 
-        
-      <div className="video-wrapper">{videos[0] ?  videos.map((item, idx) => {
+        <Link to="/video-instructions/"><button>Instructions Found Here</button></Link> 
+      </div>
+
+
+      <div>
+      {videos[0] ?  videos.map((item, idx) => {
       return <div key={item+idx} dangerouslySetInnerHTML={{__html: item}}></div>
-    }) : "Loading ..."}</div>
-      
+      }) : "Loading Videos..."}
+      </div>
+          
     </Layout>
   )
 }
