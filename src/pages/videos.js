@@ -20,13 +20,10 @@ function Videos() {
     base("Site")
       .select({fields: ["Attachments", "Writing", "Looms"]}).eachPage(
         function page(records) {
-          console.log('I am the records: ', records)
           records.forEach(function (record) {
             if(record.get("Attachments")) {
-              console.log('Attachments: ', record.get('Attachments')[0].url)
               airImages.push(record.get('Attachments')[0].url)
             }
-            console.log('Test Looms: ', record.get("Looms"))
             if(record.get("Looms")) {
               airLoomVideos.push(record.get("Looms"))
             }
