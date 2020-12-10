@@ -83,7 +83,7 @@ Those suggestions spark conversation and provide us opportunities to find common
         </p>
         <p>
 
-From an evolutionary perspective, ‘suggesting’ provides us a low-stakes way of giving to the broader group, setting-up mini you-can-trust-me moments that potentially lead to gossip, which, according to Robin Dunbar, is the very reason language itself was created. Primates groom; we shortcut that laborious, and likely bitter, grooming process to gossip and information sharing — thankfully. 
+From an evolutionary perspective, ‘suggesting’ provides us a low-stakes way of giving to the broader group, setting-up mini you-can-trust-me moments that potentially lead to gossip, which, according to <a href="https://www.psychologytoday.com/us/blog/talking-apes/201502/why-you-were-born-gossip">Robin Dunbar, is the very reason language itself was created</a>. Primates groom but we found a way to shortcut that laborious, and likely bitter, bonding process by gossiping and information sharing — thankfully. 
 
         </p>
         <p>
@@ -93,11 +93,13 @@ In honor of our first long-forgotten ancestor who bravely decided to stop pickin
 
 <p>
 
-Today’s async activity is sharing all those juicy things we’ve found crawling on, and off, the internet. It can be a movie, song, clip, course, meme, a random thought you had while brushing your teeth … whatever. 
+Today’s async activity is sharing all those juicy gems we’ve found crawling on, and off, the internet. It can be a movie, song, clip, course, meme, a random thought you had while brushing your teeth … whatever. 
 </p>
 
 <p>
-Click below to find the recommendation form. Attached your name to it. Tell us why you’re recommending the thing and, if applicable, give us a link to it. All submissions will auto-populate below and we highly encourage MORE than one submission per person. Give us all the goods you got! Somewhat antithetical to the purpose of this goodie spawning exercise, if for some reason you want to suggest but not be held responsible for the thing being suggested, you can select “anonymous” instead of your name … how dangerous.
+Click below to find the recommendation form. Fill it out. Tell us why you’re recommending 'the thing' and, if applicable, give us a link to it. 
+
+All submissions will auto-populate below and we highly encourage MORE than one submission per person. Give us all the goods you got! Somewhat antithetical to the purpose of this goodie spawning exercise, if for some reason you want to suggest but not be held responsible for the thing being suggested, you can select “anonymous” instead of your name … how dangerous.
 
 </p>
 <p>

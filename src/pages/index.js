@@ -28,7 +28,7 @@ function IndexPage() {
 
         <h3>Async Activity of the Day:</h3>
         <h4>The Things.</h4>
-        <Link to="/videos/"><button>What Will You Pick?</button></Link>
+        <Link to="/things/"><button>What Will You Pick?</button></Link>
         <h3>Quick Links</h3>
         <h4>Need Calendars, Cards, or Time Zone Converters?</h4>
         <Link to="/calendars/"><button>We Got Ya!</button></Link>

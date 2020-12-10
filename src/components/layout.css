@@ -746,7 +746,7 @@ button:hover {
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
 }
 
-.suggestion-card > div > a, a {
+.suggestion-card > div > a, .suggestion-card >  a {
   color: #002F71;
   text-decoration: none;
   font-family: 'Avant Garde Bold', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -775,3 +775,4 @@ button:hover {
   fill: white;
   color: white;
 }
+
