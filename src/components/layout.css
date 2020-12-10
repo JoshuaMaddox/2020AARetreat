@@ -776,3 +776,6 @@ button:hover {
   color: white;
 }
 
+.main-message > span {
+  color: red;
+}
