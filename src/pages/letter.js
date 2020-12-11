@@ -85,7 +85,6 @@ To add a few constraints and precautions, there’s a drop down menu that asks y
 
 </p>
         <div>
-          <h2> A Letter ...</h2>
           <p>Letters will show here once they start coming in.</p>
         {notes}  
       </div>
