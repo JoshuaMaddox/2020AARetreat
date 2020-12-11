@@ -19,24 +19,19 @@ function Things() {
     base("Site")
       .select({fields: ["NameTwo", "Suggestion", "Link", "Type"]}).eachPage(
         function page(records) {
-          console.log('I am the records: ', records)
           records.forEach(function (record) {
             let packagedSuggestion = {type: false, name: false, suggestion: false, link: false}
             if(record.get("NameTwo")) {
-              console.log('NameTwo: ', record.get('NameTwo'))
               packagedSuggestion.name = record.get('NameTwo')
             }
             if(record.get("Type")) {
-              console.log('Type: ', record.get('Type'))
               packagedSuggestion.type = record.get('Type')
             }
             if(record.get("Suggestion")) {
               packagedSuggestion.suggestion = record.get('Suggestion')
-              console.log('Suggestion: ', record.get('Suggestion'))
             }
             if(record.get("Link")) {
               packagedSuggestion.link = record.get('Link')
-              console.log('Link: ', record.get('Link'))
             }
             if(packagedSuggestion.type || packagedSuggestion.name || packagedSuggestion.suggestion || packagedSuggestion.link) {
               airRecomendations.push(packagedSuggestion)

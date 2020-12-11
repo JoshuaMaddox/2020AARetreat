@@ -779,3 +779,35 @@ button:hover {
 .main-message > span {
   color: red;
 }
+
+.button-wrapper {
+  background-color:  rgb(238, 238, 238);
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.name-button, .name-button-green {
+  font-size: .8rem;
+  background-color: #002F71;
+  padding: .5rem;
+  color: #ffffff; 
+  margin:  .5rem;
+  display: block;
+  height:  2rem;
+  line-height: 1.4;
+}
+
+.name-button-green {
+  background-color: green;
+}
+
+.name-button:hover {
+  color: #ffffff;
+  background-color:  #0093BB;
+}
+
+.name-button-green:hover {
+  color: #ffffff;
+  background-color:red;
+}
